@@ -1,0 +1,4 @@
+from keras.models import load_model
+
+# load the pre-trained model
+model = load_model('pre-trained_model.h5')
